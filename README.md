@@ -37,10 +37,6 @@ $ sh script/test_syn_retrained.sh
 ```
 The PSNR, SSIM and average inference time will be printed, and derained results are saved in the folder "./results/".
 
-## Performance Evaluation
-
-All PSNR and SSIM results are computed based on Y channel of YCbCr space. The code is located at ./util/standard_derain_metrics.py
-
 ## Acknowledgement 
 Code framework borrows from [Pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) by [Jun-Yan Zhu](https://github.com/junyanz/). Thanks for sharing !
 
