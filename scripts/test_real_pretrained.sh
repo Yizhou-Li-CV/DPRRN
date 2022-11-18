@@ -1,0 +1,1 @@
+python test.py --dataroot ./datasets/Real_World_Dataset --num_test 1000 --name DPRRN_synthetic_pretrained --netG DPRRN --checkpoints_dir checkpoints/ --results_dir results/  --model real_world_test --dataset_mode dp_LR_real --preprocess none --test_domain real

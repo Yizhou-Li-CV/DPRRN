@@ -1,0 +1,37 @@
+----------------- Options ---------------
+             aspect_ratio: 1.0                           
+               batch_size: 16                            
+          checkpoints_dir: checkpoints/                  	[default: ./checkpoints]
+              crop_size_h: 96                            
+              crop_size_w: 96                            
+                 dataroot: ./datasets/Real_World_Dataset 	[default: None]
+             dataset_mode: dp_LR_real                    	[default: dp_LR_synthetic]
+                    epoch: latest                        
+                  gpu_ids: 0                             
+                init_gain: 0.02                          
+                init_type: normal                        
+                  isTrain: False                         	[default: None]
+                    leaky: False                         
+                load_iter: 0                             	[default: 0]
+                load_size: None                          
+         max_dataset_size: inf                           
+                    model: real_world_test               	[default: test]
+                     name: DPRRN_synthetic_pretrained    	[default: experiment_name]
+                     netG: DPRRN                         
+                  no_flip: False                         
+                     norm: batch                         
+                    ntest: inf                           
+                 num_test: 1000                          	[default: 2000]
+              num_threads: 4                             
+             only_metrics: False                         
+                    phase: test                          
+                     pool: max                           
+               preprocess: none                          
+              results_dir: results/                      	[default: ./results/]
+           serial_batches: False                         
+                   suffix:                               
+                   target: image_deraining               
+              test_domain: real                          	[default: None]
+                  verbose: False                         
+            vertical_flip: False                         
+----------------- End -------------------

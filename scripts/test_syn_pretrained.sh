@@ -1,0 +1,1 @@
+python test.py --dataroot datasets/Synthetic_Raindrop_Dataset --num_test 1000 --name DPRRN_synthetic_pretrained --netG DPRRN --checkpoints_dir checkpoints/ --results_dir results/  --model synthetic_train_test --dataset_mode dp_LR_synthetic --preprocess none --test_domain syn
