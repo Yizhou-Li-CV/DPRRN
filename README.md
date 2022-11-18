@@ -11,7 +11,7 @@ Removing raindrops in images has been addressed as a significant task for variou
 
 - Real-world Dataset: 82 test pairs
 
-Both can be downloaded from [[GoogleDrive]](https://drive.google.com/drive/folders/1L3sXsthCAkBF_mI9K8VI8xwIDYWou7Wj?usp=sharing). Unzip both files to ./dataset for training and test.
+Both can be downloaded from [[GoogleDrive]](https://drive.google.com/drive/folders/1L3sXsthCAkBF_mI9K8VI8xwIDYWou7Wj?usp=sharing). Unzip both files to ./datasets for training and test.
 
 The code of data rendering will be publicly available later.
 
