@@ -7,7 +7,7 @@ Removing raindrops in images has been addressed as a significant task for variou
 - Requirements: opencv-python, tensorflow 1.x/2.x (for use of tensorboard)
 
 ## Dataset Preparation
-- Synthetic-Raindrop Datasets: 1920 training pairs and 496 test pairs
+- Synthetic-Raindrop Datasets: 1960 training pairs and 496 test pairs
 
 - Real-world Dataset: 82 test pairs
 
