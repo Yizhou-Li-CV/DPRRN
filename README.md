@@ -1,6 +1,6 @@
 ## [Dual-Pixel Raindrop Removal, BMVC2022 (Oral)](https://arxiv.org/abs/2210.13321)
 ### Introduction
-Removing raindrops in images has been addressed as a significant task for various computer vision applications. In this paper, we propose the first method using a Dual-Pixel (DP) sensor to better address the raindrop removal. Our key observation is that raindrops attached to a glass window yield noticeable disparities in DP's left-half and right-half images, while almost no disparity exists for in-focus backgrounds. Therefore, DP disparities can be utilized for robust raindrop detection. The DP disparities also brings the advantage that the occluded background regions by raindrops are shifted between the left-half and the right-half images. Therefore, fusing the information from the left-half and the right-half images can lead to more accurate background texture recovery. Based on the above motivation, we propose a DP Raindrop Removal Network (DPRRN) consisting of DP raindrop detection and DP fused raindrop removal. To efficiently generate a large amount of training data, we also propose a novel pipeline to add synthetic raindrops to real-world background DP images. Experimental results on synthetic and real-world datasets demonstrate that our DPRRN outperforms existing state-of-the-art methods, especially showing better robustness to real-world situations.
+Removing raindrops in images has been addressed as a significant task for various computer vision applications. In this paper, we propose the first method using a Dual-Pixel (DP) sensor to better address the raindrop removal. Our key observation is that raindrops attached to a glass window yield noticeable disparities in DP's left-half and right-half images, while almost no disparity exists for in-focus backgrounds. Therefore, DP disparities can be utilized for robust raindrop detection. The DP disparities also brings the advantage that the occluded background regions by raindrops are shifted between the left-half and the right-half images. Therefore, fusing the information from the left-half and the right-half images can lead to more accurate background texture recovery. Based on the above motivation, we propose a DP Raindrop Removal Network (DPRRN) consisting of DP raindrop detection and DP fused raindrop removal. To efficiently generate a large amount of training data, we also propose a novel pipeline to add synthetic raindrops to real-world background DP images. Experimental results on synthetic and real-world datasets demonstrate that our DPRRN outperforms existing state-of-the-art methods, especially showing better robustness to real-world situations. Check our project page at http://www.ok.sc.e.titech.ac.jp/res/SIR/dprrn/dprrn.html.
 
 ## Prerequisites
 - Python 3.9, PyTorch >= 1.8.0
@@ -44,10 +44,10 @@ Code framework borrows from [Pix2pix](https://github.com/junyanz/pytorch-CycleGA
 ## Citation
 
 ```
-@article{li2022dual,
+@inproceedings{li2022dual,
   title={Dual-Pixel Raindrop Removal},
   author={Li, Yizhou and Monno, Yusuke and Okutomi, Masatoshi},
-  journal={arXiv preprint arXiv:2210.13321},
+  booktitle={British Machine Vision Conference},
   year={2022}
 }
  ```
