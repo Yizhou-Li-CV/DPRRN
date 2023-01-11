@@ -44,10 +44,10 @@ Code framework borrows from [Pix2pix](https://github.com/junyanz/pytorch-CycleGA
 ## Citation
 
 ```
-@inproceedings{li2022dual,
+@article{li2022dual,
   title={Dual-Pixel Raindrop Removal},
   author={Li, Yizhou and Monno, Yusuke and Okutomi, Masatoshi},
-  booktitle={British Machine Vision Conference},
+  journal={arXiv preprint arXiv:2210.13321},
   year={2022}
 }
- ```
+```
