@@ -44,10 +44,12 @@ Code framework borrows from [Pix2pix](https://github.com/junyanz/pytorch-CycleGA
 ## Citation
 
 ```
-@article{li2022dual,
-  title={Dual-Pixel Raindrop Removal},
-  author={Li, Yizhou and Monno, Yusuke and Okutomi, Masatoshi},
-  journal={arXiv preprint arXiv:2210.13321},
-  year={2022}
+@inproceedings{Li_2022_BMVC,
+author    = {Yizhou Li and Yusuke Monno and Masatoshi Okutomi},
+title     = {Dual-Pixel Raindrop Removal},
+booktitle = {33rd British Machine Vision Conference 2022, {BMVC} 2022, London, UK, November 21-24, 2022},
+publisher = {{BMVA} Press},
+year      = {2022},
+url       = {https://bmvc2022.mpi-inf.mpg.de/0439.pdf}
 }
 ```
