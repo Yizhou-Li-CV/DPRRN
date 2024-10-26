@@ -22,7 +22,7 @@ Download:
 - BMVC ver. dataset: [[GoogleDrive]](https://drive.google.com/drive/folders/1L3sXsthCAkBF_mI9K8VI8xwIDYWou7Wj?usp=sharing).
 - TPAMI ver. dataset: [[GoogleDrive]](https://drive.google.com/drive/folders/1-1V4ll1x5mqViI1zPUfufZ0GXMgR_s-r?usp=sharing).
 
- Unzip both files to ./datasets for training and test.
+ Unzip downloaded files to ./datasets for training and test.
 
 ## Synthetic Dataset Rendering
 Codes are in folder of ./synthetic_data_rendering/.
