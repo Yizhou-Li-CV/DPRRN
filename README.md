@@ -68,7 +68,11 @@ $ sh script/test_syn_retrained.sh
 The PSNR, SSIM and average inference time will be printed, and derained results are saved in the folder "./results/".
 
 ## Acknowledgement 
-Code framework borrows from [Pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) by [Jun-Yan Zhu](https://github.com/junyanz/). Thanks for sharing !
+Code framework borrows from [Pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
+
+Referred code for Synthetic-Raindrop Rendering:
+- AiF raindrop rendering: [RaindropRMV](https://github.com/DreamtaleCore/RaindropRmv)
+- Raindrop blurring: [RDPD](https://github.com/Abdullah-Abuolaim/recurrent-defocus-deblurring-synth-dual-pixel), [Dual_Pixel_Defocus_Estimation](https://imaging.cs.cmu.edu/dual_pixels/)
 
 
 ## Citation
