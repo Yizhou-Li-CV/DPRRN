@@ -7,15 +7,15 @@ Removing raindrops in images has been addressed as a significant task for variou
 - Requirements: opencv-python, tensorflow 1.x/2.x (for use of tensorboard)
 
 ## Dataset Preparation
-Synthetic-Raindrop Datasets: 
+Synthetic-Raindrop Datasets (TPAMI): 
 - Tilted: 1960 training pairs and 492 test pairs
 - Vertical: 1960 training pairs and 492 test pairs
 
-Real-waterdrop dataset: 
+Real-Waterdrop Dataset (TPAMI): 
 - Tilted: 130 test pairs
 - Vertical: 125 test pairs
 
-Real-car
+Real-Car Dataset (TPAMI)
 - Tilted: 94 pairs
 
 Download:
