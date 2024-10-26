@@ -131,7 +131,7 @@ def main(raw_dir, transfered_dir):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--raw_dir', type=str, required=True)
-    parser.add_argument('--transferred_dir', type=str, required=True)
+    parser.add_argument('--save_dir', type=str, required=True)
     args = parser.parse_args()
 
-    main(args.raw_dir, args.transferred_dir)
+    main(args.raw_dir, args.save_dir)

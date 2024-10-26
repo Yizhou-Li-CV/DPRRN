@@ -30,7 +30,7 @@ Codes are in folder of ./synthetic_data_rendering/.
 Please check the corresponding .py files for parameter explanation.
 ### Process DP Raw Captured by Google Pixel 4
 ```
-$ python process_dp_raw.py --raw_dir xx --transferred_dir xx
+$ python process_dp_raw.py --raw_dir xx --save_dir xx
 ```
 
 ### Render All-in-Focus Raindrops on DP Images
