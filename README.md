@@ -75,11 +75,11 @@ Code framework borrows from [Pix2pix](https://github.com/junyanz/pytorch-CycleGA
 
 ```
 @article{li2024dual,
-  title={Dual-pixel raindrop removal},
-  author={Li, Yizhou and Monno, Yusuke and Okutomi, Masatoshi},
-  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
-  year={2024},
-  publisher={IEEE}
+    title={Dual-pixel raindrop removal},
+    author={Li, Yizhou and Monno, Yusuke and Okutomi, Masatoshi},
+    journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+    year={2024},
+    publisher={IEEE}
 }
 
 @inproceedings{Li_2022_BMVC,
